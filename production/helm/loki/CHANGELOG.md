@@ -13,6 +13,7 @@ Entries should include a reference to the pull request that introduced the chang
 
 [//]: # (<AUTOMATED_UPDATES_LOCATOR> : do not remove this line. This locator is used by the CI pipeline to automatically create a changelog entry for each new Loki release. Add other chart versions and respective changelog entries bellow this line.)
 
+- [FIX] Do not create bloom planner, bloom builder, bloom gateway Deployment/Statefulset if their replica count is 0.
 - [FIX] Configure (emphemeral) storage for bloom builder working directory
 - [ENHANCEMENT] Automatically configure bloom planner address for bloom builders and bloom gateway addresses for bloom gateway clients.
 
